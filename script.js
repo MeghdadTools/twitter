@@ -21,12 +21,6 @@ function myFunction() {
     <button onclick="letscopy('${matchinstagram[i]}','${i}')">کپی کردن</button> </div>`;
       }
    }
-   }
-   for (let i = 0; i < matchinstagram.length; i++) {
-    output.innerHTML += `<div class="outbox ins box${i}">
-    <p>${matchinstagram[i]}</p> 
-    <button onclick="letscopy('${matchinstagram[i]}','${i}')">کپی کردن</button> </div>`;
- }
 }
 function letscopy(text, number) {
    var copyText = text;
