@@ -1,0 +1,96 @@
+@font-face {
+    font-family: customfont;
+    src: url(fonts/dana-medium.otf);
+ }
+body{
+    background-color: #252A34;
+    font-family: customfont;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding-bottom: 20px;
+}
+#welcome p{
+    color: #08D9D6;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    line-height: 55px;
+    direction: rtl;
+}
+#input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding: 15px;
+    margin: 10px;
+    border: 8px solid #FF2E63;
+    border-radius: 25px;
+}
+#input textarea{
+    background-color: rgb(131, 131, 131);
+    border: 5px solid #08D9D6;
+    font-size: 20px;
+    color:white;
+    height: 150px;
+    width: 400px;
+    resize: none;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#input button{
+    font-size: 25px;
+    font-family: customfont;
+    direction: rtl;
+    background-color: #FF2E63;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#input button:hover{
+    background-color: #8d1634;
+}
+#output{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+}
+.outbox{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+flex-direction: column;
+    margin: 10px;
+    margin-top: 20px;
+    background-color: #454545;
+    width: 250px;
+    border: 15px solid #08D9D6;
+}
+.outbox{
+    padding: 10px;
+}
+.outbox p{
+    width: 230px;
+    line-break: anywhere;
+    font-size: 20px;
+}
+.outbox button{
+    font-size: 20px;
+    background-color: #060030;
+    font-family: customfont;
+    padding: 10px;
+    cursor: pointer;
+    border: #FF2E63 3px solid;
+    margin: 15px;
+}
+.ins{
+    border: 15px solid #FF2E63;
+}
